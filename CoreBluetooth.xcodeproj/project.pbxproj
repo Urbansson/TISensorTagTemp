@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F77D85F1A3DAF5300005CCD /* SelectDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77D85E1A3DAF5300005CCD /* SelectDeviceCell.swift */; };
+		9F77D8631A3DB02100005CCD /* selectDeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F77D8621A3DB02100005CCD /* selectDeviceCell.xib */; };
+		9F77D8651A3DB26F00005CCD /* SelectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77D8641A3DB26F00005CCD /* SelectDeviceViewController.swift */; };
+		9F77D8691A3DC12700005CCD /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77D8681A3DC12700005CCD /* ServiceViewController.swift */; };
+		9FD09E141A3EFA16007C9F28 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E111A3EFA16007C9F28 /* Chart.swift */; };
+		9FD09E151A3EFA16007C9F28 /* ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E121A3EFA16007C9F28 /* ChartColors.swift */; };
+		9FD09E161A3EFA16007C9F28 /* ChartSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E131A3EFA16007C9F28 /* ChartSeries.swift */; };
+		9FD09E1F1A3F2F04007C9F28 /* Filehandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E1E1A3F2F04007C9F28 /* Filehandler.swift */; };
+		9FD09E241A3F30C5007C9F28 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD09E231A3F30C5007C9F28 /* SendViewController.swift */; };
 		9FDA2F951A3C723A0032C3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2F941A3C723A0032C3BA /* AppDelegate.swift */; };
 		9FDA2F971A3C723A0032C3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2F961A3C723A0032C3BA /* ViewController.swift */; };
 		9FDA2F9A1A3C723A0032C3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA2F981A3C723A0032C3BA /* Main.storyboard */; };
 		9FDA2F9C1A3C723A0032C3BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA2F9B1A3C723A0032C3BA /* Images.xcassets */; };
 		9FDA2F9F1A3C723A0032C3BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA2F9D1A3C723A0032C3BA /* LaunchScreen.xib */; };
 		9FDA2FAB1A3C723A0032C3BA /* CoreBluetoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2FAA1A3C723A0032C3BA /* CoreBluetoothTests.swift */; };
+		9FDA2FB91A3C747A0032C3BA /* Sensors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2FB81A3C747A0032C3BA /* Sensors.m */; };
+		9FDA2FBC1A3C80180032C3BA /* BLEUtilitySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2FBB1A3C80180032C3BA /* BLEUtilitySwift.swift */; };
+		9FDA2FBE1A3C81500032C3BA /* BLEFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2FBD1A3C81500032C3BA /* BLEFinder.swift */; };
+		9FDA2FC01A3C88110032C3BA /* BLEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2FBF1A3C88110032C3BA /* BLEService.swift */; };
+		9FDA2FC21A3CA7E10032C3BA /* SensorTagUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA2FC11A3CA7E10032C3BA /* SensorTagUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F77D85E1A3DAF5300005CCD /* SelectDeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDeviceCell.swift; sourceTree = "<group>"; };
+		9F77D8621A3DB02100005CCD /* selectDeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = selectDeviceCell.xib; sourceTree = "<group>"; };
+		9F77D8641A3DB26F00005CCD /* SelectDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDeviceViewController.swift; sourceTree = "<group>"; };
+		9F77D8681A3DC12700005CCD /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		9FD09E111A3EFA16007C9F28 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		9FD09E121A3EFA16007C9F28 /* ChartColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartColors.swift; sourceTree = "<group>"; };
+		9FD09E131A3EFA16007C9F28 /* ChartSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSeries.swift; sourceTree = "<group>"; };
+		9FD09E1E1A3F2F04007C9F28 /* Filehandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filehandler.swift; sourceTree = "<group>"; };
+		9FD09E231A3F30C5007C9F28 /* SendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 		9FDA2F8F1A3C723A0032C3BA /* CoreBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDA2F931A3C723A0032C3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDA2F941A3C723A0032C3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +59,13 @@
 		9FDA2FA41A3C723A0032C3BA /* CoreBluetoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreBluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDA2FA91A3C723A0032C3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDA2FAA1A3C723A0032C3BA /* CoreBluetoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothTests.swift; sourceTree = "<group>"; };
+		9FDA2FB51A3C74790032C3BA /* CoreBluetooth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreBluetooth-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FDA2FB71A3C747A0032C3BA /* Sensors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sensors.h; sourceTree = "<group>"; };
+		9FDA2FB81A3C747A0032C3BA /* Sensors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sensors.m; sourceTree = "<group>"; };
+		9FDA2FBB1A3C80180032C3BA /* BLEUtilitySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEUtilitySwift.swift; sourceTree = "<group>"; };
+		9FDA2FBD1A3C81500032C3BA /* BLEFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEFinder.swift; sourceTree = "<group>"; };
+		9FDA2FBF1A3C88110032C3BA /* BLEService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEService.swift; sourceTree = "<group>"; };
+		9FDA2FC11A3CA7E10032C3BA /* SensorTagUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorTagUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F77D85D1A3DAF3100005CCD /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9F77D85E1A3DAF5300005CCD /* SelectDeviceCell.swift */,
+				9F77D8621A3DB02100005CCD /* selectDeviceCell.xib */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		9FD09E101A3EFA16007C9F28 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E111A3EFA16007C9F28 /* Chart.swift */,
+				9FD09E121A3EFA16007C9F28 /* ChartColors.swift */,
+				9FD09E131A3EFA16007C9F28 /* ChartSeries.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		9FD09E171A3F18A5007C9F28 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9FD09E1E1A3F2F04007C9F28 /* Filehandler.swift */,
+				9FDA2FB41A3C745E0032C3BA /* SensorTagLib */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		9FDA2F861A3C723A0032C3BA = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +135,18 @@
 		9FDA2F911A3C723A0032C3BA /* CoreBluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				9FDA2F941A3C723A0032C3BA /* AppDelegate.swift */,
-				9FDA2F961A3C723A0032C3BA /* ViewController.swift */,
+				9FDA2FB51A3C74790032C3BA /* CoreBluetooth-Bridging-Header.h */,
+				9FD09E101A3EFA16007C9F28 /* Chart */,
+				9F77D85D1A3DAF3100005CCD /* TableViewCells */,
+				9FDA2FBA1A3C7FFE0032C3BA /* CoreBluethootUtil */,
+				9F77D8641A3DB26F00005CCD /* SelectDeviceViewController.swift */,
+				9F77D8681A3DC12700005CCD /* ServiceViewController.swift */,
+				9FD09E231A3F30C5007C9F28 /* SendViewController.swift */,
 				9FDA2F981A3C723A0032C3BA /* Main.storyboard */,
+				9FDA2F961A3C723A0032C3BA /* ViewController.swift */,
 				9FDA2F9B1A3C723A0032C3BA /* Images.xcassets */,
 				9FDA2F9D1A3C723A0032C3BA /* LaunchScreen.xib */,
+				9FD09E171A3F18A5007C9F28 /* Helpers */,
 				9FDA2F921A3C723A0032C3BA /* Supporting Files */,
 			);
 			path = CoreBluetooth;
@@ -90,6 +155,7 @@
 		9FDA2F921A3C723A0032C3BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9FDA2F941A3C723A0032C3BA /* AppDelegate.swift */,
 				9FDA2F931A3C723A0032C3BA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +176,26 @@
 				9FDA2FA91A3C723A0032C3BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FDA2FB41A3C745E0032C3BA /* SensorTagLib */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA2FB71A3C747A0032C3BA /* Sensors.h */,
+				9FDA2FB81A3C747A0032C3BA /* Sensors.m */,
+				9FDA2FC11A3CA7E10032C3BA /* SensorTagUtils.swift */,
+			);
+			name = SensorTagLib;
+			sourceTree = "<group>";
+		};
+		9FDA2FBA1A3C7FFE0032C3BA /* CoreBluethootUtil */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA2FBB1A3C80180032C3BA /* BLEUtilitySwift.swift */,
+				9FDA2FBD1A3C81500032C3BA /* BLEFinder.swift */,
+				9FDA2FBF1A3C88110032C3BA /* BLEService.swift */,
+			);
+			name = CoreBluethootUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FDA2F9A1A3C723A0032C3BA /* Main.storyboard in Resources */,
+				9F77D8631A3DB02100005CCD /* selectDeviceCell.xib in Resources */,
 				9FDA2F9F1A3C723A0032C3BA /* LaunchScreen.xib in Resources */,
 				9FDA2F9C1A3C723A0032C3BA /* Images.xcassets in Resources */,
 			);
@@ -212,8 +299,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDA2FBC1A3C80180032C3BA /* BLEUtilitySwift.swift in Sources */,
+				9F77D85F1A3DAF5300005CCD /* SelectDeviceCell.swift in Sources */,
+				9FDA2FC21A3CA7E10032C3BA /* SensorTagUtils.swift in Sources */,
+				9FD09E141A3EFA16007C9F28 /* Chart.swift in Sources */,
 				9FDA2F971A3C723A0032C3BA /* ViewController.swift in Sources */,
 				9FDA2F951A3C723A0032C3BA /* AppDelegate.swift in Sources */,
+				9FDA2FBE1A3C81500032C3BA /* BLEFinder.swift in Sources */,
+				9F77D8691A3DC12700005CCD /* ServiceViewController.swift in Sources */,
+				9FD09E241A3F30C5007C9F28 /* SendViewController.swift in Sources */,
+				9FD09E151A3EFA16007C9F28 /* ChartColors.swift in Sources */,
+				9FDA2FB91A3C747A0032C3BA /* Sensors.m in Sources */,
+				9FD09E161A3EFA16007C9F28 /* ChartSeries.swift in Sources */,
+				9F77D8651A3DB26F00005CCD /* SelectDeviceViewController.swift in Sources */,
+				9FD09E1F1A3F2F04007C9F28 /* Filehandler.swift in Sources */,
+				9FDA2FC01A3C88110032C3BA /* BLEService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +436,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CoreBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreBluetooth/CoreBluetooth-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +449,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CoreBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreBluetooth/CoreBluetooth-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +510,7 @@
 				9FDA2FB01A3C723A0032C3BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FDA2FB11A3C723A0032C3BA /* Build configuration list for PBXNativeTarget "CoreBluetoothTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +519,7 @@
 				9FDA2FB31A3C723A0032C3BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
